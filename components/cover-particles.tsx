@@ -1,5 +1,5 @@
 "use client" // usar el componente como un use client
-import { useCallback, useEffect, useState } from "react";
+import {  useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim"; 
 
