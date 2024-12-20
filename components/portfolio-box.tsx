@@ -18,13 +18,13 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
     return (
         <div
             key={id}
-            className="p-4 border border-teal-50 rounded-xl text-center" 
+            className="p-4 border border-teal-50 rounded-xl text-center h-auto" 
         >
             <h3 className="mb-4 text-xl">{title}</h3>
             <Image
                 src={image}
                 alt="Image"
-                width={180} height={180} className="inline w-full md:w-[150px] rounded-2xl d-"
+                width={200} height={200} className="inline w-3/4 md:w-[200px] rounded-2xl h-32"
             />
 
             <div className="flex justify-center gap-5 mt-3">
@@ -41,7 +41,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
                     target="_blank"
                     className="p-2 transition duration-150 rounded-lg bg-colortxt hover:bg-colortxt/80"
                 >
-                    Live demo
+                    Demo
                 </Link>
             </div>
         </div>

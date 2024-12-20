@@ -8,7 +8,7 @@ import { usePathname} from 'next/navigation'
 export const Navbar = () => {
     const router=usePathname();// para saber en que ruta estamos o pagina
   return (
-    <div className='fixed z-40 flex flex-col items-center justify-center w-full mt-auto h-max bottom-10'>
+    <div className='fixed z-40 flex flex-col items-center justify-center w-full mt-2 h-max bottom-2 '>
        <nav>
                 <div className="flex items-center justify-center gap-2 px-4 py-1 rounded-full bg-white/15 background-blur-sm">
                     {itemsNavbar.map((item) => (
