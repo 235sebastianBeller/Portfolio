@@ -58,8 +58,8 @@ export const dataPortfolio = [
         title: "Sistema Academico",
         image: "/sistema-academico.png",
 
-        urlGithub: "https://github.com/SebasBeller/SistemaAcademicoFront.git",
-        urlDemo: "https://academicofront.onrender.com/",
+        urlGithub: "https://github.com/235sebastianBeller/FrontEndSistemaAcademico.git",
+        urlDemo: "https://frontendsistemaacademico.onrender.com/",
     },
     {
         id: 3,
